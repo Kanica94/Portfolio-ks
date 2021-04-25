@@ -100,3 +100,31 @@ p {
 mt-5 {
   margin-top: 3rem !important;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  #contact h2 {
+    font-size: 32px;
+  }
+  #contact .email-link {
+    font-size: 22px;
+  }
+
+  .col-sm-4 img {
+    margin: 10px auto;
+  }
+
+  .container .col-6 img {
+    display: none;
+  }
+
+  .col-6 {
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
